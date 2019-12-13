@@ -14,7 +14,7 @@ def get_users():
 		user_list.append(user_dict)
 
 	return user_list
-
+	pass
 def create_user(data):
 	firstname = data.get('firstname')
 	lastname = data.get('lastname')
