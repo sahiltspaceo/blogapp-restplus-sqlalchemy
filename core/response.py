@@ -1,13 +1,12 @@
 response_string = {
-	'code' : None,
-	'message' : None,
-	'data' : None
+	'responseMessage' : None,
+	'responseCode' : None,
+	'responseData' : None
 	}
 
 def send_response(code,message,data):
-	print("Aasdad")
-	response_string['code'] = code
-	response_string['data'] = data
-	response_string['message'] = message	
+	response_string['responseCode'] = code
+	response_string['responseData'] = data
+	response_string['responseMessage'] = message	
 	print(response_string)
 	return response_string

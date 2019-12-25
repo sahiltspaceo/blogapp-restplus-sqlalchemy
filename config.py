@@ -1,5 +1,5 @@
 # Flask settings
-FLASK_SERVER_NAME = 'localhost:5000'
+FLASK_SERVER_NAME = '172.16.17.110:5000'
 FLASK_DEBUG = True  # Do not use debug mode in production
 
 # Flask-Restplus settings
@@ -8,6 +8,22 @@ RESTPLUS_VALIDATE = True
 RESTPLUS_MASK_SWAGGER = False
 RESTPLUS_ERROR_404_HELP = False
 
+# JWT settings
+JWT_ACCESS_TOKEN_EXPIRES = False
+JWT_REFRESH_TOKEN_EXPIRES = False
+JWT_BLACKLIST_ENABLED = False
+JWT_BLACKLIST_TOKEN_CHECKS = ['access', 'refresh']
+JWT_SECRET_KEY = 'eqznlue'
+
+
 # SQLAlchemy settings
-SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:root@localhost/sqlalchemy'
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:root@localhost/tf_test'
 SQLALCHEMY_TRACK_MODIFICATIONS = False
+
+
+
+#Primary Count Limit
+PRIMARY_USER_ASSIGN_LIMIT = 5
+MAX_PRIMARY_LIMIT = 2
+MAX_SECONDARY_LIMIT = 10
+MAX_FAMILY_MEMBER_LIMIT = 5

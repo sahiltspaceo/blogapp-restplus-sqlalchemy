@@ -1,0 +1,42 @@
+{
+	"onboarding":{
+		"user_not_registered" : "User Not Registered",
+		"invalid_password" : "Invalid Password",
+		"login_success" : "Login Successful",
+		"otp_not_verified" : "OTP Not Verified",
+		"registered_and_otp_sent" : "User Registered And Otp Sent",
+		"reset_pw_mail_sent" : "Reset Password Mail Sent",
+		"mail_sending_fail" : "Error Sending Email.Please Try After sometime",
+		"otp_verified" : "OTP Verified Successfully",
+		"incorrect_otp" : "Incorrect OTP. Try Again",
+		"otp_expired" 	: "OTP Expired. Resend OTP",
+		"otp_sent" 	: "OTP Sent Successfully",
+		"error_sending_otp" : "Error Sending OTP. Try Again",
+		"account_deactivated" : "Account Has Been Deactivated",
+		"unauthorized" 	: "Unauthorized Access",
+		"logout_success" : "Logout successful",
+		"otp_login_success" : "OTP Verified! Login Successful",
+		"otp_sent"	: "OTP Sent To Your Phone Number",
+		"password_updated" : "Password Updated Successfully"
+	},
+	
+	"familyinfo":{
+		"secondary_user_added" : "Secondary User Added Successfully",
+		"primary_user_added" : "Primary User Added Successfully",
+		"user_already_added" : "User Already Added In The List",
+		"primary_list" : "Primary Users List",
+		"secondary_list" : "Secondary Users List",
+		"max_limit_reached" : "Can Not Add More Users",
+		"secondary_user_added" : "Secondary User Added Successfully",
+		"primary_user_updated" : "Primary User Updated Successfully",
+		"secondary_user_updated" : "Secondary User Updated Successfully",
+		"primary_removed" : "Primary User Removed",
+		"secondary_removed" : "Secondary User Removed",
+		"family_member_limit_reached" : "Can Not Add More Family Members",
+		"family_member_added" : "Family Member Added",
+		"family_info" : "Family Information",
+		"family_member_updated" : "Family Member Updated",
+		"family_member_removed" : "Family Member Removed"
+	}
+
+}
