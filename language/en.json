@@ -10,24 +10,24 @@
 		"otp_verified" : "OTP Verified Successfully",
 		"incorrect_otp" : "Incorrect OTP. Try Again",
 		"otp_expired" 	: "OTP Expired. Resend OTP",
-		"otp_sent" 	: "OTP Sent Successfully",
 		"error_sending_otp" : "Error Sending OTP. Try Again",
 		"account_deactivated" : "Account Has Been Deactivated",
 		"unauthorized" 	: "Unauthorized Access",
 		"logout_success" : "Logout successful",
 		"otp_login_success" : "OTP Verified! Login Successful",
 		"otp_sent"	: "OTP Sent To Your Phone Number",
-		"password_updated" : "Password Updated Successfully"
+		"password_updated" : "Password Updated Successfully",
+		"tokens_refreshed" : "New Tokens Generated"
 	},
 	
 	"familyinfo":{
 		"secondary_user_added" : "Secondary User Added Successfully",
 		"primary_user_added" : "Primary User Added Successfully",
+		"cannot_add_self_email" : "Can Not Add Self Email",		
 		"user_already_added" : "User Already Added In The List",
 		"primary_list" : "Primary Users List",
 		"secondary_list" : "Secondary Users List",
 		"max_limit_reached" : "Can Not Add More Users",
-		"secondary_user_added" : "Secondary User Added Successfully",
 		"primary_user_updated" : "Primary User Updated Successfully",
 		"secondary_user_updated" : "Secondary User Updated Successfully",
 		"primary_removed" : "Primary User Removed",
@@ -36,7 +36,31 @@
 		"family_member_added" : "Family Member Added",
 		"family_info" : "Family Information",
 		"family_member_updated" : "Family Member Updated",
-		"family_member_removed" : "Family Member Removed"
-	}
+		"family_member_removed" : "Family Member Removed",
+		"primary_assign_limit_reached" : "Cannot Assign More Primary Members",
+		"assigned_primary_list" : "Assigned Primary Users List",
+		"assigned_secondary_list" : "Assigned Secondary Users List",
+		"unassigned" : "User Unassigned",
+		"user_assigned" : "User Assigned",
+		"assign_max_reached" : "Can Not Assign More Users",
+		"tooth_event_created" : "Tooth Event Created",
+		"tooth_history" : "Tooth History"
+	},
 
+	"dentist" : {
+		"dentist_list" : "Dentist List",
+		"appointment_created" : "Appointment Created"
+	},
+
+	"home": {
+		"home_screen" : "Home Screen"
+	},
+
+	"settings": {
+		"tooth_diseases" : "Tooth Diseases",
+		"tooth_gallery" : "Tooth Gallery",
+		"view_profile" : "Profile Information",
+		"update_profile" : "Profile Information Updated",
+		"cms" : "CMS Page"
+	}
 }
